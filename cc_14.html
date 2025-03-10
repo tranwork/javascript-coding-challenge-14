@@ -4,20 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Customer Support Ticket System</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Page Styling */
+        body {
+            background-color: #f8d7da;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header & Footer */
+        header, footer {
+            background-color: #d9534f;
+            color: white;
+            padding: 15px;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 10px;
+            margin: 10px;
+            border: 2px solid black;
+        }
+
+        /* Ticket Container */
+        #ticketContainer {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: #cce5ff;
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Ticket Cards */
+        .ticket-card {
+            background-color: #f9c6d3;
+            border: 2px solid black;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            width: 300px;
+        }
+
+        .ticket-card h3 {
+            font-weight: bold;
+            color: black;
+        }
+
+        .ticket-card p {
+            margin: 5px 0;
+            color: black;
+        }
+
+        /* Buttons */
+        .ticket-card button {
+            display: block;
+            width: 80%;
+            margin: 5px auto;
+            padding: 5px;
+            border: none;
+            background-color: #ccc;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Customer Support Ticket System</h1>
-    </header>
+    <header>Customer Support Ticket System</header>
     <main>
         <div id="ticketContainer">
-            <!-- Support Tickets will be added dynamically -->
+            <p>The Support tickets will be displayed here.</p>
         </div>
     </main>
-    <footer>
-        <p>Jenny's Support Team</p>
-    </footer>
+    <footer>&copy; 2025 Jenny's Customer Support</footer>
     <script src="cc_14.js"></script>
 </body>
 </html>
